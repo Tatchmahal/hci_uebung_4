@@ -1,0 +1,172 @@
+@media only screen and (min-width:1024px) {
+.col-sm-7-scroll{
+    position: absolute;
+    top: 40%;
+    bottom: 5%;
+    right: 0;
+    left: 30%;
+    overflow-y: scroll;
+    width: 70%;
+}
+
+}
+.col-md-3-scroll-left{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    overflow-y: scroll;
+    width: 30%;
+}
+.h4{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.genre{
+    margin-top: 50px;
+}
+.inhalt{
+  margin-top: 20px;
+  margin-left: 10px;
+  min-height: 500px;
+}
+.buttons{
+  background-color:#F6E6E7;
+  margin-top: 20px;
+  border-radius: 20px;
+  word-break: break-word;
+  text-align: center;
+  color:#431416;
+  font-size: 20px;
+}
+
+a:hover{
+  color: Black;
+}
+
+a:link{
+  color: #431416;
+}
+
+.container{
+  background-color: #431416;
+}
+
+.Willkommenstext{
+  margin-bottom: 20px;
+  margin-top: 20px;
+  color: #F6E6E7;
+  size: 5;
+}
+
+.card-body{
+    background-color:#F6E6E7;
+    font-size: 20px;
+}
+
+.card-header{
+  background-color:#F6E6E7;
+  color: #431416;
+  font-size: 25px;
+}
+
+.list-group-item{
+  background-color: #F6E6E7;
+  color: #431416;
+  font-size: 20px;
+}
+
+.card-text{
+  margin-left: 20px;
+  color: #431416;
+}
+
+.maps{
+  margin-left:120px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width:1024px) {
+  .list-group{
+    width: 500px;
+  }
+}
+
+.list-group{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.card{
+margin-top: 20px;
+margin-bottom: 10px;
+}
+
+.col-md-7-scroll{
+border-collapse: collapse;
+}
+
+.card-katalog{
+  margin-top: 10px;
+}
+
+.header{
+  background-color: #F6E6E7;
+  text-align: center;
+    color: #431416;
+}
+
+.footer{
+  background-color:#F6E6E7;
+}
+
+.nav-link{
+    color: #431416;
+}
+
+.ueberschrfit{
+  color: #F6E6E7;
+  font-size: 30px;
+}
+
+.form-check-label{
+  color:#431416
+}
+
+.answer-text{
+  color: #F6E6E7;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.responsiveContainer{
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.responsiveContainer iframe{
+   left: 0;
+   top: 5%;
+   height: 100%;
+   width: 100%;
+   position: absolute;
+}
+
+
+@media only screen and (min-width:1024px) {
+  .col-sm-7-scroll-right{
+      position: absolute;
+      top: 4%;
+      bottom: 0;
+      right: 0;
+      left: 30%;
+      overflow-y: scroll;
+      width: 70%;
+      margin-top: 75px;
+      margin-bottom: 20px;
+  }
+}

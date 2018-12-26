@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" id="theme">
+    <title>Hello, world!</title>
+</head>
+<body onload="updateTheme('styles/')">
+
+
+<div class="container">
+  <div class="header">
+    <div class="row">
+        <div class="col-md-2"> <!--Logo-->
+            <div class="col-md-2" onclick="window.location.href='index.html'">
+                <img src="assets/logo.png"  alt="Responsive image" height="90" >
+            </div>
+        </div>
+        <div class="col-md-10" ><!--Title -->
+            <h1 class="header-title">Zum Buchwurm...</h1>
+            <h2 class="header-subtitle">...einem Paradies für Leseratten</h2>
+        </div>
+    </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-2" > <!--Menu -->
+            <nav class="nav flex-column">
+                <a class="buttons" role="button" href="index.html" >Startseite</a>
+                <a class="buttons" role="button" href="docs/katalog.html">Katalog</a>
+                <a class="buttons" role="button" href="docs/gewinnspiel.html">Gewinnspiel</a>
+                <a class="buttons" role="button" href="docs/anfahrt.html">Anfahrt</a>
+                <button class="buttons" id="themeBut" onclick="changeTheme('styles/')"></button>
+            </nav>
+        </div>
+        <div class="col-md-10"> <!--Inhalt -->
+            <div class="inhalt">
+                <div class="Willkommenstext">
+                    <h4><font size="6">Sei gegrüßt du Bibliophiler, </font></h4>
+                    <h6><font size="+2">du bist an dem Ort deiner Träume angelangt, den in unserer Buchhandlung führen
+                    wir Bücher, die du in keiner anderen finden kannst. Denn wir verkaufen hier die lustigsten
+                  und abstrusesten Bücher überhaupt. Also schau nur rein und lach mit uns. </font> </h6>
+                </div>
+                <div class="row">
+                    <div class="container">
+                        <h4 class="ueberschrfit">Unsere Bestseller</h4>
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <div id="list-example" class="list-group">
+                                    <a class="list-group-item list-group-item-action" href="#list-item-1">Bored of the Rings</a>
+                                    <a class="list-group-item list-group-item-action" href="#list-item-2">What to do when the Russians come</a>
+                                    <a class="list-group-item list-group-item-action" href="#list-item-3">Eating People is wrong</a>
+                                </div>
+                            </div>
+                            <div class="col-sm-7-scroll">
+                                    <div class="card">
+                                        <h5 class="card-header" id="list-item-1">
+                                            Bored of the Rings von Harvard Lampoon
+                                        </h5>
+                                        <div class="card-body">
+                                          <div class="row">
+                                          <div class="col-sm-3">
+                                              <img src="assets/bored_of_the_rings.jpg" class="img-fluid" alt="Responsive image"  >
+                                          </div>
+                                            <div class="col-sm-7">
+                                            <p class="card-text">
+                                                Eine von Harvard Studenten verfasste Parodie des Weltklassikers 'Herr der Ringe'
+                                                von J.R.R Tolkien.
+                                            </p>
+                                            </div>
+                                          </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <h5 class="card-header" id="list-item-2">
+                                            What to do when the Russians come von Robert Conquest und Jon Manchip White
+                                        </h5>
+                                        <div class="card-body">
+                                          <div class="row">
+                                          <div class="col-sm-3">
+                                              <img src="assets/russians.jpg" class="img-fluid" alt="Responsive image">
+                                          </div>
+                                          <div class="col-sm-7">
+                                            <p class="card-text">
+                                                Wenn man den Titel liest könnte man meinen es handele sich um einen Scherz.
+                                                Jedoch handelt das Buch von ernsthaften Tipps wie man sic verhalten solle, falls Amerika
+                                                von den Russen überfallen würde.
+                                            </p>
+                                          </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <h5 class="card-header" id="list-item-3">
+                                            Eating People is wrong von Malcolm Bradbury
+                                        </h5>
+                                        <div class="card-body">
+                                          <div class="row">
+                                              <div class="col-sm-3">
+                                                  <img src="assets/eating_people.jpg" class="img-fluid" alt="Responsive image">
+                                              </div>
+                                          <div class="col-sm-7">
+                                            <p class="card-text">
+                                               Lustige Satire über eine Abteilung an einer englischen Universität.
+                                            </p>
+                                          </div>
+                                          </div>
+                                        </div>
+                                    </div>
+                                  </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+    <div class="row">
+        <div class="col-md-2">
+        </div><!--Fooder -->
+        <div class="col-md-7">
+            <nav class="nav">
+                <a class="nav-link" href="docs/ueberUns.html">Über uns</a>
+                <a class="nav-link" href="docs/impressum.html">Impressum</a>
+                <a class="nav-link" href="../docs/datenschutz.html">Datenschutzerklärung</a>
+            </nav>
+            </div>
+        </div>
+        </div>
+    </div>
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="js/theme.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+</body>
+</html>

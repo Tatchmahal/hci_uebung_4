@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" id="theme">
+    <title>Hello, world!</title>
+</head>
+<body onload="updateTheme('../styles/')">
+
+  <div class="container">
+    <div class="header">
+      <div class="row">
+          <div class="col-md-2"> <!--Logo-->
+              <div class="col-md-2" onclick="window.location.href='../index.html'">
+                  <img src="../assets/logo.png"  alt="Responsive image" height="90" >
+              </div>
+          </div>
+          <div class="col-md-10" ><!--Title -->
+              <h1 class="header-title">Zum Buchwurm...</h1>
+              <h2 class="header-subtitle">...einem Paradies für Leseratten</h2>
+          </div>
+      </div>
+      </div>
+
+    <div class="row">
+        <div class="col-md-2"> <!--Menu -->
+            <nav class="nav flex-column">
+              <a class="buttons" role="button" href="../index.html" >Hauptseite</a>
+              <a class="buttons" role="button" href="katalog.html">Katalog</a>
+              <a class="buttons" role="button" href="gewinnspiel.html">Gewinnspiel</a>
+              <a class="buttons" role="button" href="anfahrt.html">Anfahrt</a>
+                <button class="buttons" id="themeBut" onclick="changeTheme('../styles/')"></button>
+            </nav>
+        </div>
+        <div class="col-md-10"> <!--Inhalt -->
+          <div class="Willkommenstext">
+            <p><strong><big>Über uns</big></strong></p>
+            <p>Unsere Buchhandlung hat sich nicht das Ziel gesetzt großen Profiz zu machen,
+            sondern nur lustige und komische Bücher zu sammeln und auszustellen. Bücher von denen Sie
+          gar keine Ahnung haben, dass diese überhaupt existieren, da die Themen von denen sie handeln des Öfteren
+        sehr außergewöhnlich sind. Unser vorrangiges Ziel ist es daher Ihnen eine neue Perspektive der Literatur aufzuzeigen und
+      ihnen ein Lächeln ins Gesicht zu zaubern.</p>
+          </div>
+
+        </div>
+    </div>
+
+    <div class="footer">
+    <div class="row">
+        <div class="col-md-2">
+        </div><!--Fooder -->
+        <div class="col-md-7">
+            <nav class="nav">
+                <a class="nav-link active" href="../docs/ueberUns.html">Über uns</a>
+                <a class="nav-link" href="../docs/impressum.html">Impressum</a>
+                <a class="nav-link" href="../docs/datenschutz.html">Datenschutzerklärung</a>
+            </nav>
+            </div>
+        </div>
+        </div>
+    </div>
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="../js/theme.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+</body>
+</html>
