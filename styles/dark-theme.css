@@ -1,15 +1,16 @@
 @media only screen and (min-width:1024px) {
-.col-sm-7-scroll{
-    position: absolute;
-    top: 40%;
-    bottom: 5%;
-    right: 0;
-    left: 30%;
-    overflow-y: scroll;
-    width: 70%;
+    .col-sm-7-scroll{
+        position: absolute;
+        top: 40%;
+        bottom: 5%;
+        right: 0;
+        left: 30%;
+        overflow-y: scroll;
+        width: 70%;
+    }
 }
 
-}
+
 .col-md-3-scroll-left{
     position: absolute;
     top: 0;
@@ -155,6 +156,8 @@ border-collapse: collapse;
    width: 100%;
    position: absolute;
 }
+
+
 
 
 @media only screen and (min-width:1024px) {
