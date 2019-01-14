@@ -12,6 +12,8 @@
 </head>
 <body onload="updateTheme('../styles/')">
 
+
+
   <div class="container">
     <div class="header">
       <div class="row">
@@ -26,6 +28,10 @@
           </div>
       </div>
       </div>
+
+
+
+
 
     <div class="row">
         <div class="col-md-2"> <!--Menu -->
@@ -90,25 +96,31 @@
                             </div>
                         </div>
                     </div>
-                    
+
+
+
                     <div class="col-sm-3">
-                        <div id="list-example" class="list-group">
-                            <p class="ueberschrfit"><strong><big>Fantasy</big></strong></p>
-                            <a class="list-group-item list-group-item-action" style="background-color: #867677;" href="#list-item-1">Bored of the Rings</a>
-                            <a class="list-group-item list-group-item-action" style="background-color: #867677;" href="#list-item-2">The Book</a>
-                            <p></p>
-                            <p class="ueberschrfit"><strong><big>Lebensratgeber</big></strong></p>
-                            <a class="list-group-item list-group-item-action" style="background-color: #B4343C;" href="#list-item-3">The Manly Art of Knitting</a>
-                            <a class="list-group-item list-group-item-action" style="background-color: #B4343C;" href="#list-item-4">What to do when the Russians come</a>
-                            <p></p>
-                            <p class="ueberschrfit"><strong><big>Satire</big></strong></p>
-                            <a class="list-group-item list-group-item-action" style="background-color: #DA9A9D;" href="#list-item-5">Eating People is wrong</a>
-                        </div>
+                        <ul class="nav" id="navbar-example2">
+                            <li class="nav-item">
+                                <div id="list-example" class="list-group">
+                                    <p class="ueberschrfit"><strong><big>Fantasy</big></strong></p>
+                                    <a class="list-group-item list-group-item-action" style="background-color: #867677;" href="#list-item-1">Bored of the Rings</a>
+                                    <a class="list-group-item list-group-item-action" style="background-color: #867677;" href="#list-item-2">The Book</a>
+                                    <p></p>
+                                    <p class="ueberschrfit"><strong><big>Lebensratgeber</big></strong></p>
+                                    <a class="list-group-item list-group-item-action" style="background-color: #B4343C;" href="#list-item-3">The Manly Art of Knitting</a>
+                                    <a class="list-group-item list-group-item-action" style="background-color: #B4343C;" href="#list-item-4">What to do when the Russians come</a>
+                                    <p></p>
+                                    <p class="ueberschrfit"><strong><big>Satire</big></strong></p>
+                                    <a class="list-group-item list-group-item-action" style="background-color: #DA9A9D;" href="#list-item-5">Eating People is wrong</a>
+                                </div>
+                            </li>
+                        </ul>
                     </div>
 
                     <!-- <div class="col-sm-7-scroll-right"> -->
                     <div class="col-sm-7">
-                        <div>
+                        <div data-spy="scroll" data-target="#navbar-example2" data-offset="0" class="scrolldiv">
                           <div class="card-katalog" id="book-1">
                               <h5 class="card-header" id="list-item-1" style="background-color:#867677">
                                   Bored of the Rings von Harvard Lampoon
