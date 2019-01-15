@@ -25,7 +25,7 @@ function filtern() {
     if (isbn.length > 0){filterForISBN = true}
     if (preis_min != 0.00 || preis_max != 0.00){filterForPreis = true}
 
-    for (let i = 1; i < 2; i++) {
+    for (let i = 1; i < 11; i++) {
         let bookDiv = document.getElementById('book-' + i);
         if (filterForTitle){
             let bookTitle = document.getElementById('title-' + i).innerText;
@@ -57,7 +57,7 @@ function filtern() {
 }
 
 function showAll() {
-    for (let i = 1; i < 2; i++) {
+    for (let i = 1; i < 11; i++) {
         document.getElementById('book-' + i).style.display = 'block';
     }
 }
